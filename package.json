@@ -1,0 +1,11 @@
+{
+  "name": "portal_noticias",
+  "version": "1.0.0",
+  "description": "Site de Noticias",
+  "main": "noticias.js",
+  "author": "Maciel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
