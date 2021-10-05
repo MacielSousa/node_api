@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
+app.set('view engine', 'ejs');
+
 app.get('/', function(req, res){
     res.send("<html><body>Portal de Noticias</body></html>");
 });
